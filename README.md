@@ -5,6 +5,7 @@
 - [HTML](https://voodoo.github.io/resume.html)
 - [PDF](https://voodoo.github.io/resume.pdf)
 - [Markdown](https://voodoo.github.io/resume.md)
+- [Timeline](https://voodoo.github.io/timeline.html)
 
 ## Developer
 

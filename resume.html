@@ -2,20 +2,20 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>index</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; }
+<title>resume</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
 body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit inherit; background-repeat: inherit inherit; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
 .in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
-#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
 #write.first-line-indent p { text-indent: 2em; }
 #write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
 #write.first-line-indent li { margin-left: 2em; }
 .for-image #write { padding-left: 8px; padding-right: 8px; }
 body.typora-export { padding-left: 30px; padding-right: 30px; }
-.typora-export .footnote-line, .typora-export p { white-space: pre-wrap; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
 @media screen and (max-width: 500px) { 
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   .CodeMirror-sizer { margin-left: 0px !important; }
@@ -49,7 +49,7 @@ figure > table { margin: 0px !important; }
 tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
-table.md-table td { min-width: 80px; }
+table.md-table td { min-width: 32px; }
 .CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
 .CodeMirror { text-align: left; }
 .CodeMirror-placeholder { opacity: 0.3; }
@@ -80,10 +80,10 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
 #write .footnote-line { white-space: pre-wrap; }
 @media print { 
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid-page; break-before: avoid-page; }
-  #write { margin-top: 0px; border-color: transparent !important; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
   .typora-export * { -webkit-print-color-adjust: exact; }
   html.blink-to-pdf { font-size: 13px; }
-  .typora-export #write { padding-left: 1cm; padding-right: 1cm; padding-bottom: 0px; break-after: avoid-page; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid-page; }
   .typora-export #write::after { height: 0px; }
   @page { margin: 20mm 0px; }
 }
@@ -129,6 +129,7 @@ kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 
 code { text-align: left; }
 a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
 .md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
 .md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
 .MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
 .MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
@@ -156,34 +157,6 @@ date {
 }
 
 @include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
-
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Open Sans Regular'), url('file:///Users/pvudu/Library/Application%20Support/abnerworks.Typora/themes/github/400.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    font-style: italic;
-    font-weight: normal;
-    src: local('Open Sans Italic'), url('file:///Users/pvudu/Library/Application%20Support/abnerworks.Typora/themes/github/400i.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: bold;
-    src: local('Open Sans Bold'), url('file:///Users/pvudu/Library/Application%20Support/abnerworks.Typora/themes/github/700.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    font-style: italic;
-    font-weight: bold;
-    src: local('Open Sans Bold Italic'), url('file:///Users/pvudu/Library/Application%20Support/abnerworks.Typora/themes/github/700i.woff') format('woff');
-}
 
 html {
     font-size: 16px;
@@ -560,16 +533,10 @@ footer {
     border-color: #e5e5e5;
 }
 
- .typora-export p, .typora-export .footnote-line {white-space: normal;} 
+ .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
 </style>
 </head>
 <body class='typora-export' >
-<div  id='write'  class = 'is-mac'><p>&nbsp;</p><h1><a name='header-n2' class='md-header-anchor '></a>Paul Vudmaska&#39;s Resume</h1><p>Phone: 210-287-3468 | Email : <a href='mailto:paul@vudmaska.com'>paul@vudmaska.com</a></p><h2><a name='header-n4' class='md-header-anchor '></a>Web Application Developer</h2><p>Specializing in Ruby on Rails (10 years experience) and other complimentary open source skills.</p><h2><a name='header-n6' class='md-header-anchor '></a>Objective</h2><p>Seeking a challenging position where my programming experience and problem solving skills will immediately benefit your …</p><ul><li><strong>Online presence</strong> 
-Make your front end appealing with my skills in Photoshop, CSS and HTML</li><li><strong>Process efficiencies</strong> 
-Condense processes with online forms</li><li><strong>Website effectiveness</strong> 
-Use analytics to KNOW what is happening</li><li><strong>Bottom line</strong> 
-Get better returns by being more efficient and attracting new customers</li></ul><h2><a name='header-n17' class='md-header-anchor '></a>Skills</h2><p><strong>Server-side</strong></p><ul><li><p><strong>@@@@</strong>@  Ruby on Rails</p><ul><li><p>Nginx / Passenger</p></li><li><p>Plugins / Gems</p></li><li><p>Acts_as</p><ul><li>authenticted</li><li>list</li><li>versioned</li><li>state_machine</li><li>tree</li><li>attachment</li><li>taggable_on_steroids</li></ul></li></ul></li></ul><p>&nbsp;</p><ul><li>calender_date_select</li><li>calender_helper</li><li>responds_to_parent</li><li>exception_notification</li><li>haml</li><li>liquid</li><li>will_paginate</li><li>recaptcha</li><li>rmagick </li><li>Mysql / Migrations</li><li>Rbenv</li><li>Capistrano</li></ul><p><strong>Client / Browser</strong></p><ul><li><p>Javascript</p><ul><li>jQuery</li><li>Vue</li></ul></li><li><p>HTML</p></li><li><p>CSS</p><ul><li>Bootstrap</li></ul></li><li><p>Static site generators</p><ul><li>Middleman</li><li>Vue Press</li></ul></li></ul><h2><a name='header-n93' class='md-header-anchor '></a>Education</h2><p><date>May 1997</date></p><h3><a name='header-n95' class='md-header-anchor '></a>Bachelor of Business Administration</h3><h4><a name='header-n96' class='md-header-anchor '></a>Information Systems</h4><p>UTSA, San Antonio, Texas</p><h2><a name='header-n98' class='md-header-anchor '></a>Experience</h2><p>&nbsp;</p><h3><a name='header-n100' class='md-header-anchor '></a>MBLZ <a href='http://mblz.com' target='_blank' class='url'>http://mblz.com</a></h3><p><date>Jan 2007 to Present</date></p><ul><li><p>Full stack development of CRM for small business.</p><ul><li>Rails</li><li>Twilio</li><li>Jquery Mobile</li></ul></li></ul><h2><a name='header-n112' class='md-header-anchor '></a>Rackspace</h2><p><date>2010-2014</date></p><p>&nbsp;</p><h2><a name='header-n115' class='md-header-anchor '></a>References</h2><ul><li><strong>Elva Tristan</strong> <a href='mailto:elva@mblz.com' target='_blank' class='url'>elva@mblz.com</a>
-<em>MBLZ, Owner</em></li><li><strong>Daren Chilynsky</strong> <a href='mailto:daren.chylinski@rackspace.com' target='_blank' class='url'>daren.chylinski@rackspace.com</a> 
-<em>Rackspace, Manager</em></li></ul><p>&nbsp;</p></div>
+<div  id='write'  class = 'is-mac'><p>&nbsp;</p><h1><a name='header-n2' class='md-header-anchor '></a>Paul Vudmaska&#39;s Resume</h1><p>Phone: 210-422-7745 | Email : <a href='mailto:paul@vudmaska.com'>paul@vudmaska.com</a></p><h2><a name='header-n4' class='md-header-anchor '></a>Web Application Developer</h2><p>Full stack, Ruby on Rails (12+ years experience) developer with other complimentary skills.</p><h2><a name='header-n6' class='md-header-anchor '></a>Why me?</h2><p>My best asset is my <strong>interest</strong>. I keep up with web development trends (both front and back) because I love to do it. </p><ul><li><p>I seek <strong>value</strong> - how is this going to help me create value?</p></li><li><p><strong>Finding</strong> the right tool for the job used to be the hardest part. </p></li><li><p>Now, <strong>choosing</strong>, the right tool is hardest.</p><p>&nbsp;</p><p><em>I&#39;ve got 20 years of experience choosing and implementing the right tools for the job.</em></p><p>&nbsp;</p></li></ul><h2><a name='header-n30' class='md-header-anchor '></a>Skills</h2><p><strong>Server-side</strong></p><ul><li><p>Rails</p></li><li><p>Many ruby gems  <a href='./Gemfile'>Gemfile</a></p></li><li><p>Mysql / Postgres</p></li><li><p>Managed production servers on Digital Ocean and Linode for more than 10 years</p><ul><li>Ubuntu</li><li>SSH / Keys</li></ul></li></ul><p><strong>Client / Browser</strong></p><ul><li><p>HTML</p></li><li><p>Javascript</p><ul><li>jQuery</li><li>Vue</li></ul></li><li><p>CSS</p><ul><li>Bootstrap</li></ul></li><li><p>Static site generators</p><ul><li>Middleman</li><li>Vue Press</li><li>Gridsome</li></ul></li></ul><h2><a name='header-n106' class='md-header-anchor '></a>Education <date>May 1997</date></h2><h3><a name='header-n107' class='md-header-anchor '></a>Bachelor of Business Administration</h3><h4><a name='header-n109' class='md-header-anchor '></a><em>Information Systems</em></h4><p><strong>UTSA</strong>, San Antonio, Texas</p><h2><a name='header-n111' class='md-header-anchor '></a>Experience</h2><p>&nbsp;</p><h2><a name='header-n113' class='md-header-anchor '></a><a href='http://mblz.com'>MBLZ</a> <date>Jan 2007 to Present</date></h2><ul><li><p>Full stack development of CRM for small business. </p></li><li><p>Manages customer&#39;s clients, phones, invoices and more</p><ul><li><p>Rails (Gemfile) </p><ul><li>Nginx, Passenger, Mysql</li></ul></li><li><p>Twilio</p><ul><li>Scriptable phone number</li><li>Routing</li></ul></li><li><p>Jquery Mobile</p><ul><li>UI / Javascript</li></ul></li></ul></li><li><p>I&#39;ve worked for MBLZ on a project basis over the last few years. <strong>Some of the projects include:</strong></p><ul><li><p>Updating all sites to use SSL (Let&#39;s Encrypt)</p></li><li><p>Moved the CMS portion out of Rails and into a static generator</p><ul><li><strong>Middleman</strong> - all the sites use one instance, each containing their own data and content - making maintenance (including adding sites) very efficient, performant and cost effective</li><li>Bootstrap (3&amp;4)</li></ul></li><li><p>Added &#39;module&#39; to support product invoices and inventory</p></li></ul></li></ul><h2><a name='header-n145' class='md-header-anchor '></a><a href='http://rackspace.com'>Rackspace</a> <date>2010-2014</date></h2><p>&nbsp;</p><h2><a name='header-n161' class='md-header-anchor '></a>Others<date>Before 2010</date></h2><ul><li><p>Navy (3 years). Honorably discharged. Attained rank of E6 in short enlistment.</p><ul><li>Worked on the flight deck of an air craft carrier (Saratoga)</li><li>Visited the Mediteranean</li></ul></li><li><p>USAA</p><ul><li>Tech lead</li><li>Intranet apps</li><li>ASP - Jscript on the server</li></ul></li></ul></div>
 </body>
 </html>

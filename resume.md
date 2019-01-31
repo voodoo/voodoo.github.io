@@ -2,108 +2,97 @@
 
 # Paul Vudmaska's Resume
 
-Phone: 210-287-3468 | Email : [paul@vudmaska.com](mailto:paul@vudmaska.com)
+Phone: 210-422-7745 | Email : [paul@vudmaska.com](mailto:paul@vudmaska.com)
 
 ## Web Application Developer
 
-Specializing in Ruby on Rails (10 years experience) and other complimentary open source skills.
+Full stack, Ruby on Rails (12+ years experience) developer with other complimentary skills.
 
-## Objective
+## Why me?
 
-Seeking a challenging position where my programming experience and problem solving skills will immediately benefit your …
+My best asset is my **interest**. I keep up with web development trends (both front and back) because I love to do it. 
 
-- **Online presence** 
-  Make your front end appealing with my skills in Photoshop, CSS and HTML
+* I seek **value** - how is this going to help me create value?
 
-- **Process efficiencies** 
-  Condense processes with online forms
+* **Finding** the right tool for the job used to be the hardest part. 
 
-- **Website effectiveness** 
-  Use analytics to KNOW what is happening
+* Now, **choosing**, the right tool is hardest.
 
-- **Bottom line** 
-  Get better returns by being more efficient and attracting new customers
+  
+
+  *I've got 20 years of experience choosing and implementing the right tools for the job.*
+
+  
 
 ## Skills
 
 **Server-side**
 
-- **@@@@**@  Ruby on Rails
-  - Nginx / Passenger
-  - Plugins / Gems
-  - Acts_as
-    - authenticted
-    - list
-    - versioned
-    - state_machine
-    - tree
-    - attachment
-    - taggable_on_steroids
-
-
-
-  - calender_date_select
-  - calender_helper
-  - responds_to_parent
-  - exception_notification
-  - haml
-  - liquid
-  - will_paginate
-  - recaptcha
-  - rmagick 
-
-- Mysql / Migrations
-
-- Rbenv
-
-- Capistrano
+- Rails
+- Many ruby gems  [Gemfile](./Gemfile)
+- Mysql / Postgres
+- Managed production servers on Digital Ocean and Linode for more than 10 years
+  - Ubuntu
+  - SSH / Keys
 
 **Client / Browser**
 
-* Javascript
-  * jQuery
-  * Vue
 * HTML
 * CSS
-  * Bootstrap
+  - Bootstrap
+* Javascript
+  * jQuery
+  * jQuery Mobile
+  * Vue
 * Static site generators
   * Middleman
   * Vue Press
+  * Gridsome
 
-## Education
-
-<date>May 1997</date>
+## Education <date>May 1997</date>
 
 ###  Bachelor of Business Administration
 
-#### Information Systems
+#### *Information Systems*
 
-UTSA, San Antonio, Texas
+**UTSA**, San Antonio, Texas
 
 ## Experience
 
 
 
-### MBLZ <http://mblz.com>
+## [MBLZ](http://mblz.com) <date>Jan 2007 to Present</date>
 
-<date>Jan 2007 to Present</date>
-
-* Full stack development of CRM for small business.
-  * Rails
+* Full stack development of CRM for small business. 
+* Manages customer's clients, phones, invoices and more
+  * Rails (Gemfile) 
+    * Nginx, Passenger, Mysql
   * Twilio
+    * Scriptable phone number
+    * Routing
   * Jquery Mobile
+    * UI / Javascript
+* I've worked for MBLZ on a project basis over the last few years. **Some of the projects include:**
+  * Updating all sites to use SSL (Let's Encrypt)
+  * Moved the CMS portion out of Rails and into a static generator
+    * **Middleman** - all the sites use one instance, each containing their own data and content - making maintenance (including adding sites) very efficient, performant and cost effective
+    * Bootstrap (3&4)
+  * Added product invoices and inventory
 
-## Rackspace
+## [Rackspace](http://rackspace.com) <date>2010-2015</date>
 
-<date>2010-2014</date>
+Senior developer working on internal apps that managed documents/contracts.
 
+* Using their API, interfaced with Salesforce
+* Encrypted documents at rest
+* Implemented workflows that streamlined the sales/contract process
 
+## Others<date>Before 2010</date>
 
-## References
-
-* **Elva Tristan** elva@mblz.com
-  *MBLZ, Owner*
-
-* **Daren Chilynsky** daren.chylinski@rackspace.com 
-  *Rackspace, Manager*
-
+* Navy (3 years). Honorably discharged. Attained rank of E6 in short enlistment.
+  * Worked on the flight deck of an air craft carrier (Saratoga)
+  * Visited the Mediteranean
+* USAA
+  * Tech lead
+  * Intranet apps
+  * ASP - Jscript on the server
