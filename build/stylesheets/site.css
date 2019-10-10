@@ -1,0 +1,18 @@
+body {
+  font-family: Avenir,Verdana,sans-serif; }
+
+.main {
+  height: 1000px;
+  position: relative; }
+
+.main .content {
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+.main .content img {
+  border-radius: 50%; }
