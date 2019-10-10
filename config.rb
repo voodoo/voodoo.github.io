@@ -18,6 +18,7 @@ activate :livereload
 activate :deploy do |deploy|
   deploy.deploy_method = :git
   deploy.branch = 'master'
+  deploy.build_before = true
 end
 
 # With alternative layout
