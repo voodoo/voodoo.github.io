@@ -15,6 +15,10 @@ page '/*.txt', layout: false
 
 activate :livereload
 
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  deploy.branch = 'master'
+end
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
