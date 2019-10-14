@@ -1,7 +1,7 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
-ignore 'README.md'
+#ignore 'README.md'
 
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
@@ -23,6 +23,9 @@ activate :deploy do |deploy|
   deploy.build_before = true
 end
 
+after_build do |builder|
+  system("cp #{config[:source]+'/README.md'} #{config[:build_dir]}")
+end
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
