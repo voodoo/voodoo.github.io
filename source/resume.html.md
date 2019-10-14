@@ -49,7 +49,7 @@ My best asset is my **interest**. I keep up with web development trends (both fr
 - Managed production servers on Digital Ocean and Linode for more than 10 years
   - Ubuntu
   - Passenger
-  - Nginz
+  - Nginx
   - SSH / Keys
   - Capistrano
   - SSL certs
