@@ -1,6 +1,8 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
+ignore 'README.md'
+
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end

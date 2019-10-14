@@ -10,7 +10,3 @@
 ## Developer
 
 - Full stack, Ruby on Rails developer (12+ years experience) with other complimentary design and technology skills.
-
-## Designer
-
-- [Framer x](https://voodoo.github.io/rez/framerx/index.html)
