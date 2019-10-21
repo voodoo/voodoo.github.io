@@ -10,20 +10,95 @@ body {
   height: 100vh;
   position: relative; }
 
+@media all and (max-width: 480px) {
+  .main .content {
+    left: 30%; } }
+
 .main .content {
   margin: 0;
   position: absolute;
   text-align: center;
-  top: 50%;
+  top: 40%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-40%, -50%);
+          transform: translate(-40%, -50%);
   padding: 16px;
   border-radius: 16px;
   border: 2px solid #333;
   color: #ece9e9;
   -webkit-box-shadow: 3px 3px 16px 3px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 16px 3px rgba(0, 0, 0, 0.75); }
+  box-shadow: 3px 3px 16px 3px rgba(0, 0, 0, 0.75);
+  -webkit-animation-name: slideUp;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: slideUp;
+  animation-duration: 4s; }
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes slideUp {
+  from {
+    top: 150%; }
+  to {
+    top: 40%; } }
+
+/* Standard syntax */
+@keyframes slideUp {
+  from {
+    top: 150%; }
+  to {
+    top: 40%; } }
+
+@-webkit-keyframes fallingStar {
+  from {
+    left: -100px;
+    top: -100px; }
+  to {
+    left: calc( 100% + 100px);
+    top: 120%; } }
+
+@keyframes fallingStar {
+  from {
+    left: -100px;
+    top: -100px; }
+  to {
+    left: calc( 100% + 100px);
+    top: 120%; } }
+
+.p {
+  position: fixed;
+  left: 0px;
+  top: 50px;
+  width: 1px;
+  height: 1px;
+  background-color: white;
+  position: fixed;
+  -webkit-animation-name: fallingStar;
+          animation-name: fallingStar;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s; }
+
+.p::before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100px;
+  right: 1px;
+  top: 0px;
+  height: 1px;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(255, 255, 255, 0.4)));
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.4) 100%); }
+
+.p-1 {
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+  z-index: 1; }
 
 .main .content img {
   border-radius: 50%; }
