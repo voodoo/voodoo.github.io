@@ -44,7 +44,7 @@ My best asset is my **interest**. I keep up with web development trends (both fr
 ### Server
 
 - Rails
-- Many ruby gems [Gemfile](https://github.com/voodoo/voodoo.github.io/blob/master/Gemfile)
+- Many ruby gems [Gemfile](https://gist.github.com/voodoo/a2e516df6ab72e40bf0bcacbcf3affad)
 - Mysql / Postgres
 - Managed production servers on Digital Ocean and Linode for more than 10 years
   - Ubuntu
