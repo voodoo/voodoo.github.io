@@ -52,18 +52,22 @@ body {
 @-webkit-keyframes fallingStar {
   from {
     left: -100px;
-    top: -100px; }
+    top: -100px;
+    opacity: 0; }
   to {
     left: calc( 100% + 100px);
-    top: 120%; } }
+    top: 120%;
+    opacity: 1; } }
 
 @keyframes fallingStar {
   from {
     left: -100px;
-    top: -100px; }
+    top: -100px;
+    opacity: 0; }
   to {
     left: calc( 100% + 100px);
-    top: 120%; } }
+    top: 120%;
+    opacity: 1; } }
 
 .p {
   position: fixed;
