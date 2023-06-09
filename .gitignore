@@ -1,6 +1,8 @@
 # build output
 dist/
 
+src/assets/img
+
 # generated types
 .astro/
 

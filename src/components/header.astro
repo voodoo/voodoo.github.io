@@ -1,11 +1,12 @@
 ---
 import { Icon } from "astro-icon";
 import ThemeSwitcher from "~/components/theme-switcher.astro";
-import type { NavItem } from "~/types";
+//import type { NavItem } from "~/types";
+import qe from "~/assets/qe.svg";
 
-const navItems: Array<NavItem> = [
-  { title: "Features", url: "#features" },
-  { title: "Compatibility", url: "#compatibility" },
+const navItems = [
+  { title: "Blender", url: "#features" },
+  { title: "Midjourney", url: "#compatibility" },
   { title: "Showcase", url: "#showcase" },
 ];
 ---
@@ -15,9 +16,11 @@ const navItems: Array<NavItem> = [
   class="absolute bottom-0 z-20 flex w-full items-center justify-between border-b border-transparent px-8 py-4 text-white"
 >
   <a class="flex items-center gap-3 hover:!text-default" href="#">
-    <h1 class="sr-only">Astro</h1>
+    <img src={qe.src} class="h-18" alt="Question everything" title="Question everything" />
+    <!--
+      <h1 class="sr-only">Astro</h1>
     <Icon name="logomark" class="h-10" />
-    <Icon name="wordmark" class="hidden h-4 sm:block" />
+    <Icon name="wordmark" class="hidden h-4 sm:block" /> -->
   </a>
   <div>
     <div class="flex items-center gap-6">

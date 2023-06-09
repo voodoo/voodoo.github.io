@@ -1,0 +1,87 @@
+---
+const items = [
+    {src: 'qe', clr:"bg-gray-900"},
+    {src: 'qeg', clr:"bg-gray-100"},
+    {src: 'qeg', clr:"bg-black"},
+    {src: 'qeg', clr:"bg-gray-900"},
+    {src: 'qe', clr:"bg-black"},
+    {src: 'qe', clr:"bg-white"},
+]
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SVG</title>
+        <style>
+
+             div.fade {
+                animation: fadeIn 5s;
+            }
+            @keyframes fadeIn {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        {
+            items.map((item) =>
+            <div class=`h-screen w-screen   ${item.clr}` >
+                <img class="w-screen" src=`/${item.src}.svg` loading="lazy"  />
+            </div>
+            )
+        }
+
+        <script>
+let callback = (entries, observer) => {
+  entries.forEach((entry) => {
+    if(entry.intersectionRatio > .8 ){
+        entry.target.classList.add('fade')
+       // console.log(entry.target)
+    } else {
+        entry.target.classList.remove('fade')
+    }
+   // entry.target.style.opacity = entry.intersectionRatio
+    //console.log(entry.intersectionRatio)
+  });
+};
+
+let options = {
+  root: null,
+  threshold: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1],
+  rootMargin: "200px"
+}
+let observer = new IntersectionObserver(callback, options);
+
+for (const target of document.querySelectorAll('div')) {
+    observer.observe(target);
+}
+        // const observer = new IntersectionObserver(entries => {
+        //     entries.forEach(entry => {
+        //         const intersecting = entry.isIntersecting
+        //         console.log(entry)
+        //         if(intersecting){
+        //             entry.target.style.opacity = 1 //.add('notshown');
+        //         } else {
+        //             //entry.target.classList.remove('notshown');
+        //             entry.target.style.opacity = 0 //
+        //         }
+        //         //entry.target.style.display = intersecting ? 'block' : 'none'
+        //         })
+        //     })
+
+        //     var divs = [...document.getElementsByTagName("div")]
+        //     //console.log(divs.length)
+        //     divs.map(element => {
+        //         observer.observe(element)
+        //     });
+
+        </script>
+    </body>
+</html>
