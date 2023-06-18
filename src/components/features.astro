@@ -11,7 +11,7 @@ const features: Array<FeatureItem> = [
     icon: "mdi:handshake",
   },
   {
-    title: "100% Static HTML, No JS",
+    title: "Static or dynamic HTML",
     description:
       "Astro renders your entire page to static HTML, removing all JavaScript from your final build by default.",
     icon: "mdi:feather",
@@ -43,12 +43,14 @@ const features: Array<FeatureItem> = [
 ];
 ---
 
-<ContentSection title="Artificial intelligence?" id="features">
+<ContentSection title="Full stack developer" id="features">
   <Fragment slot="lead">
-    Blender comes <span class="text-primary">batteries included</span>. It takes
-    the best parts of
-    <span class="text-primary">state-of-the-art</span>
-    tools and adds its own <span class="text-primary">innovations</span>.
+    <span class="text-primary">Batteries included</span>.
+    <br/>
+    Design. Develop. Deploy. Repeat.
+    <br/>
+    Keep it <span class="text-primary">simple</span>
+    until you  <span class="text-primary">can't</span>.
   </Fragment>
   <ul class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
     {
@@ -58,7 +60,7 @@ const features: Array<FeatureItem> = [
             <Icon name={icon} />
           </div>
           <p class="text-center font-extrabold text-xl">{title}</p>
-          <p class="text-center text-offset text-sm">{description}</p>
+
         </li>
       ))
     }

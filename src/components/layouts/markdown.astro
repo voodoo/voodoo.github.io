@@ -1,0 +1,32 @@
+---
+const { frontmatter } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{frontmatter.title}</title>
+        <style>
+            main {
+                margin-inline: auto;
+                max-width: 80vw;
+            }
+            .blurb {
+                float: right;
+                width: 10vw;
+                border: 1px solid #ccc;
+                padding: 1em;
+                margin-top: 1rem !important;
+                border-radius: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+        <main class="prose lg:prose-xl">
+            <div class="blurb">Kaz Bach</div>
+            <slot />
+        </main>
+    </body>
+</html>

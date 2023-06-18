@@ -4,35 +4,30 @@ import ContentSection from "~/components/content-section.astro";
 import type { CompatibilityItem } from "~/types";
 
 const frameworks: Array<CompatibilityItem> = [
+  // {
+  //   title: "React",
+  //   icon: "frameworks/react",
+  //   url: "https://reactjs.org/",
+  // },
+  // {
+  //   title: "Preact",
+  //   icon: "frameworks/preact",
+  //   url: "https://preactjs.com/",
+  // },
   {
-    title: "React",
-    icon: "frameworks/react",
-    url: "https://reactjs.org/",
+    title: "Rails",
+    icon: "frameworks/rails",
+    url: "https://rubyonrails.org/",
   },
   {
-    title: "Preact",
-    icon: "frameworks/preact",
-    url: "https://preactjs.com/",
+    title: "Astro",
+    icon: "frameworks/astro",
+    url: "https://www.astro.build",
   },
   {
     title: "Svelte",
     icon: "frameworks/svelte",
     url: "https://svelte.dev/",
-  },
-  {
-    title: "Vue",
-    icon: "frameworks/vue",
-    url: "https://vuejs.org/",
-  },
-  {
-    title: "Solid",
-    icon: "frameworks/solid",
-    url: "https://www.solidjs.com/",
-  },
-  {
-    title: "Lit",
-    icon: "frameworks/lit",
-    url: "https://lit.dev/",
   },
 ];
 
@@ -70,11 +65,11 @@ const platforms: Array<CompatibilityItem> = [
 ];
 ---
 
-<ContentSection title="Compatibility" id="compatibility">
+<ContentSection title="Tools of the trade" id="compatibility">
   <Fragment slot="lead">
-    Astro <span class="text-primary">plays nice</span>. Bring your own UI{" "}
-    <span class="text-primary">framework</span>
-    and deploy to your favorite <span class="text-primary">platform</span>.
+    Stay <span class="text-primary">on the Rails</span>. Or make it <span class="text-primary">static</span>.{" "}
+    <span class="text-primary">Dynamic</span>
+    where <span class="text-primary">needed</span>.
   </Fragment>
   <CompatibilityList
     items={frameworks}
