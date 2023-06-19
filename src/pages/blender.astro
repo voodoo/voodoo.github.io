@@ -1,4 +1,5 @@
 ---
+import Logo from "~/components/logo.astro";
 import Layout from "../components/layouts/base.astro";
 const imgs = await Astro.glob("../assets/img/blender/lg/*.webp").then(
     (files) => {
@@ -8,10 +9,12 @@ const imgs = await Astro.glob("../assets/img/blender/lg/*.webp").then(
 //import { Debug } from "astro/components";
 ---
 
-<Layout>
+<Layout title="Blender Pics">
+    <a href="/"><div class="logo"><Logo /></div></a>
+
     <main class="grid">
         {imgs.map(img =>
-
+            <a name={img.src.substring(img.src.lastIndexOf('/')).replace('/','')}></a>
             <img src={img.src}  loading="lazy" alt=""/>
         )}
     </main>
@@ -24,6 +27,13 @@ const imgs = await Astro.glob("../assets/img/blender/lg/*.webp").then(
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 100px;
 } */
+            .logo {
+                position: fixed;
+                top: 0;
+                left: 1rem;
+                width: 80px;
+                height: 60px;
+            }
 img{
     width:100%;
 

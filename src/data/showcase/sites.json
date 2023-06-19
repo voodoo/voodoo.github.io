@@ -1,32 +1,32 @@
 [
   {
-    "title": "PoliNations",
-    "image": "./images/polinations.png",
-    "url": "https://polinations.com/"
+    "title": "Blender hands",
+    "image": "./images/blenderhands.webp",
+    "url": "/blender#5untitled5.webp"
   },
   {
-    "title": "Astro Docs",
-    "image": "./images/astro-docs.png",
-    "url": "https://docs.astro.build/"
+    "title": "Plants in space",
+    "image": "./images/plantsinspace.webp",
+    "url": "/blender#3plants.webp"
   },
   {
-    "title": "<div>RIOTS",
-    "image": "./images/divriots.png",
-    "url": "https://divriots.com/"
+    "title": "Chapel Girl",
+    "image": "./images/chapelgirl.webp",
+    "url": "/blender#chapel.webp"
   },
   {
-    "title": "Designcember",
-    "image": "./images/designcember.png",
-    "url": "https://designcember.com/"
+    "title": "Yin Yang",
+    "image": "./images/yinyang.webp",
+    "url": "/ai"
   },
   {
-    "title": "The Firebase Blog",
-    "image": "./images/firebase-blog.png",
-    "url": "https://firebase.blog/"
+    "title": "Heather",
+    "image": "./images/heather.webp",
+    "url": "/ai"
   },
   {
-    "title": "Corset",
-    "image": "./images/corset.png",
-    "url": "https://corset.dev/"
+    "title": "John Mayer",
+    "image": "./images/john-mayer.webp",
+    "url": "/ai"
   }
 ]
