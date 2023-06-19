@@ -13,16 +13,11 @@ const { frontmatter } = Astro.props;
             main {
                 margin-inline: auto;
                 max-width: 80vw;
+                margin-top: 2rem;
             }
 
 
-            .logo {
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 80px;
-                height: 60px;
-            }
+
 
             body {
                 background: #eee;
@@ -30,7 +25,7 @@ const { frontmatter } = Astro.props;
         </style>
     </head>
     <body>
-        <a href="/"><div class="logo"><Logo /></div></a>
+        <Logo/>
         <main class="prose lg:prose-xl">
             <slot />
         </main>

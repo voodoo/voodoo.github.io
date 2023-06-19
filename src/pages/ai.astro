@@ -1,24 +1,39 @@
 ---
+import Logo from "~/components/logo.astro";
 //import Layout from "../components/layouts/base.astro";
-const imgs = await Astro.glob("../assets/img/ai/lg/*.webp").then(
-    (files) => {
-        return files.map((file) => file.default);
-    }
-);
+const imgs = await Astro.glob("../assets/img/ai/lg/*.webp").then((files) => {
+    return files.map((file) => file.default);
+});
 //import { Debug } from "astro/components";
 ---
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <title>AI</title>
-</head>
-<body style="margin:0;background-color:black;">
-    {imgs.map(img =>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <title>AI</title>
+    </head>
+    <body style="margin:0;background-color:black;">
+        <Logo/>
+        {
+            imgs.map((img) => (
+                <>
+                    <a
+                        name={img.src
+                            .substring(img.src.lastIndexOf("/"))
+                            .replace("/", "")}
+                    />
+                    <img
+                        src={img.src}
+                        loading="lazy"
+                        style="width:100vw;margin:0"
+                        alt=""
+                    />
+                </>
+            ))
+        }
 
-        <img src={img.src}  loading="lazy" style="width:100vw;margin:0" alt=""/>
-    )}
-</body>
+    </body>
 </html>
