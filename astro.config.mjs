@@ -8,7 +8,7 @@ export default defineConfig({
   integrations: [
     tailwind({ }), //config: { applyBaseStyles: false }
     image({
-      serviceEntryPoint: "@astrojs/image/sharp",
+      //serviceEntryPoint: "@astrojs/image/sharp",
     }),
   ],
   vite: {

@@ -40,8 +40,12 @@ title: Resume
 - 10+ years at [MBLZ](https://mblz.com/)
   - [Developed](https://mblz.com/content/mblz/features/) app with Rails, Jquery, and Twilio
   - Allows MBLZ to provide phone numbers, answer the phones, create contacts and invoices for many businesses
+  - Set up SSL on all servers
+  - Set up/maintain all servers (Linode / Digital Ocean)
+  - Backup Mysql from App server to Web server (rsync, cron)
 
 ## Education
 
-- Bachelors
-- UTSA
+- Bachelors (1997)
+  - UTSA
+  - Information Systems

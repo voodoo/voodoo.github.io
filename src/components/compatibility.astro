@@ -31,7 +31,7 @@ const frameworks: Array<CompatibilityItem> = [
   },
 ];
 
-const platforms: Array<CompatibilityItem> = [
+const tools: Array<CompatibilityItem> = [
   {
     title: "Html",
     icon: "tools/html",
@@ -63,6 +63,40 @@ const platforms: Array<CompatibilityItem> = [
   //   url: "https://docs.gitlab.com/ee/user/project/pages/",
   // },
 ];
+
+const apps: Array<CompatibilityItem> = [
+  {
+    title: "Purefef",
+    icon: "apps/pureref",
+    url: "https://www.pureref.com/",
+  },
+  {
+    title: "Figma",
+    icon: "apps/figma",
+    url: "https://www.figma.com/",
+  },
+  {
+    title: "Krita",
+    icon: "apps/krita",
+    url: "https://krita.org/en/",
+  },
+  // {
+  //   title: "Render",
+  //   icon: "platforms/render",
+  //   url: "https://render.com/",
+  // },
+  // {
+  //   title: "GitHub",
+  //   icon: "fa-brands:github",
+  //   url: "https://pages.github.com/",
+  // },
+  // {
+  //   title: "GitLab",
+  //   icon: "fa-brands:gitlab",
+  //   url: "https://docs.gitlab.com/ee/user/project/pages/",
+  // },
+];
+
 ---
 
 <ContentSection title="Tools of the trade" id="compatibility">
@@ -77,8 +111,13 @@ const platforms: Array<CompatibilityItem> = [
     url="https://docs.astro.build/core-concepts/framework-components/"
   />
   <CompatibilityList
-    items={platforms}
+    items={tools}
     title="Tools"
     url="https://docs.astro.build/guides/deploy/"
   />
+  <CompatibilityList
+  items={apps}
+  title="Apps"
+  url="https://docs.astro.build/guides/deploy/"
+/>
 </ContentSection>
