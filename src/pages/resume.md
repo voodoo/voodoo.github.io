@@ -3,18 +3,19 @@ layout: ../components/layouts/markdown.astro
 title: Resume
 ---
 
+
 # Resume
 
 ## What are my greatest assets?
 
 - **Curiosity** - for all things web related
-- 25 years experience
+- 20+ years experience
 - Practical, simplicity first, mindset
 
 ## Skills
 
 - 20+ years of HTML, CSS, Javascipt
-- 10+ years of Rails
+- 10+ years of Ruby on Rails
 - 9+ years Full stack
   - Deploy (Digital Ocean, Linode)
 - 12+ years Mysql
@@ -30,6 +31,7 @@ title: Resume
 - Terminal (apple, wsl)
 - Blender
 - [Midjourney](https://www.midjourney.com/app/users/4d6697d0-a99c-48eb-b3cb-60048b57bcce/)
+  - Artificial Intelligence
 
 ## History
 
@@ -46,6 +48,5 @@ title: Resume
 
 ## Education
 
-- Bachelors (1997)
-  - UTSA
+- Bachelors / UTSA / 1997
   - Information Systems

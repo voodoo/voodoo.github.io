@@ -8,6 +8,7 @@ const { frontmatter } = Astro.props;
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <title>{frontmatter.title}</title>
         <style>
             main {
@@ -15,10 +16,6 @@ const { frontmatter } = Astro.props;
                 max-width: 80vw;
                 margin-top: 2rem;
             }
-
-
-
-
             body {
                 background: #eee;
             }

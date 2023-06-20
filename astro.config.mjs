@@ -6,7 +6,7 @@ import { defineConfig } from "astro/config";
 export default defineConfig({
   site: "https://astro-moon-landing.netlify.app/",
   integrations: [
-    tailwind({config: { applyBaseStyles: false }}), //
+    tailwind({}), //{config: { applyBaseStyles: false }}
     image({
       //serviceEntryPoint: "@astrojs/image/sharp",
     }),
