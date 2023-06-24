@@ -4,7 +4,7 @@ import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astro-moon-landing.netlify.app/",
+  site: "https://vudmaska.com",
   integrations: [
     tailwind({}), //{config: { applyBaseStyles: false }}
     image({
