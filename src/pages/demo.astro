@@ -1,0 +1,17 @@
+---
+//import Layout from "../components/layouts/base.astro"
+import img from '../assets/img/blender/lg/1moon1.webp'
+import { Image } from '@astrojs/image/components'
+function fileName(s){
+ s = s.substr(s.lastIndexOf('/') +1)
+ s = s.substr(0, s.indexOf('.'))
+
+ return s
+
+}
+---
+
+  <!-- <Image src={img} width="300"  /> -->
+  {fileName(img.src)}
+  <p>{img.src}</p>
+  <img src={img.src} />
