@@ -2,6 +2,7 @@
 //import Layout from "../components/layouts/base.astro"
 import img from '../assets/img/blender/lg/1moon1.webp'
 import { Image } from '@astrojs/image/components'
+import {Debug} from 'astro/components'
 function fileName(s){
  s = s.substr(s.lastIndexOf('/') +1)
  s = s.substr(0, s.indexOf('.'))
@@ -10,7 +11,7 @@ function fileName(s){
 
 }
 ---
-
+<p><Debug answer={img}/></p>
   <!-- <Image src={img} width="300"  /> -->
   {fileName(img.src)}
   <p>{img.src}</p>
