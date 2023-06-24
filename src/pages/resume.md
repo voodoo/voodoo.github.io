@@ -3,50 +3,101 @@ layout: ../components/layouts/markdown.astro
 title: Resume
 ---
 
+# Resume of <br/> Paul Vudmaska
 
-# Resume
-
-## What are my greatest assets?
-
-- **Curiosity** - for all things web related
-- 20+ years experience
-- Practical, simplicity first, mindset
-
-## Skills
-
-- 20+ years of HTML, CSS, Javascipt
-- 10+ years of Ruby on Rails
-- 9+ years Full stack
-  - Deploy (Digital Ocean, Linode)
-- 12+ years Mysql
-- 10+ years Jquery mobile
+- Email : paul@vudmaska.com
+- Phone: 210-422-7745
+- Wiki: https://github.com/voodoo/voodoo.github.io/wiki
 
 
-## Tools
+## Developer
 
-- Figma
-- Krita
-- Pureref
-- VS Code
-- Terminal (apple, wsl)
-- Blender
-- [Midjourney](https://www.midjourney.com/app/users/4d6697d0-a99c-48eb-b3cb-60048b57bcce/)
-  - Artificial Intelligence
+- Full stack, Ruby on Rails developer (12+ years experience) with other complimentary design and technology skills.
+- 20+ Experience with HTML, CSS, Javascript, others
 
-## History
+## Why me?
 
-- 4+ years at [Rackspace](https://www.rackspace.com/)
-  - Rails, Mysql
-  - Upgraded, developed and maintained internal app that archived contracts from Salesforce
-  - Wrote the encryption code for protecting the documents at rest
-- 10+ years at [MBLZ](https://mblz.com/)
-  - [Developed](https://mblz.com/content/mblz/features/) app with Rails, Jquery, and Twilio
-  - Allows MBLZ to provide phone numbers, answer the phones, create contacts and invoices for many businesses
-  - Set up SSL on all servers
-  - Set up/maintain all servers (Linode / Digital Ocean)
-  - Backup Mysql from App server to Web server (rsync, cron)
+- My best asset is my **interest**. I keep up with web development trends (both front and back) because I love it.
+- I seek value - "how is this technology going to help me create value for myself and others?"
+- Finding the right tool for the job used to be the hardest part. Now, choosing, the right tool is hardest because of paradox of choice.
+- I've got 20 years of experience choosing and implementing the right tools for the job.
+
+
+
+## Skills / Server
+
+- Ruby on Rails
+- Many ruby gems [Gemfile](https://github.com/voodoo/voodoo.github.io/wiki/MBLZ)
+- Mysql / Postgres
+- Managed production servers on **Digital Ocean** and **Linode** for more than 10 years
+- Ubuntu
+- Passenger
+- Nginx
+- SSH / Keys
+- Capistrano
+- SSL certs
+
+
+## Skills / Client
+
+- HTML
+- CSS
+  - Tailwind / Bootstrap
+  - Grid / Flex
+- Javascript
+- jQuery
+  - jQuery Mobile
+
+- Svelte
+- Static site generators
+  - Astro
+  - Middleman
+
+## Experience
+
+### MBLZ (Jan 2007 to Present)
+
+- Full stack development of CRM for small business.
+- Manages customer's clients, phones, invoices and more
+- Rails (started with 2, currently on 4+)
+- Nginx, Passenger, Mysql
+- Twilio
+- Scriptable phone number
+- Call Routing
+- Jquery Mobile
+- UI / Javascript
+- I've worked for MBLZ on a project basis over the last few years.
+- Some of the projects include:
+  - Added product invoices and inventory
+  - Updating all sites to use SSL (Let's Encrypt)
+  - Moved the CMS portion out of Rails and into a static site generator
+  - Multi-site Middleman - all the sites use one instance, each containing their own data and content - making maintenance (including adding sites) very efficient, performant and cost effective
+  - Bootstrap (3&4 - the upgrade to 4 was a breeze)
+
+
+### Rackspace (2010-2015)
+
+- Senior developer working on internal apps that managed contracts.
+- Using their API, interfaced with Salesforce
+- Encrypted documents at rest
+- Implemented workflows that streamlined the sales/contract process
+- Worked closely with business reps on requirements
+
+### Experience before 2010
+
+- **Navy** (3 years).
+  - Honorably discharged. Attained rank of E6 in short enlistment.
+  - Worked on the flight deck of an air craft carrier (Saratoga)
+  - Visited the Mediterranean
+- **USAA**
+  - Tech lead
+  - Intranet apps
+  - ASP - Jscript on the server
+
 
 ## Education
 
-- Bachelors / UTSA / 1997
-  - Information Systems
+- **Bachelor of Business Administration**
+- Information Systems
+- UTSA, San Antonio, Texas
+- Graduated in 1997
