@@ -61,7 +61,7 @@ title: Resume
 - Manages customer's clients, phones, invoices and more
 - Rails (started with 2, currently on 4+)
 - Nginx, Passenger, Mysql
-- Twilio
+- Twilio - allows MBLZ to answer any number of phones - and manage their contacts
 - Scriptable phone number
 - Call Routing
 - Jquery Mobile
