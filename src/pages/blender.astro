@@ -15,7 +15,7 @@ import { onlyFileName } from "~/utils";
     <main class="grid">
         {imgs.map(img =>
             <a name={onlyFileName(img.src)}></a>
-            <img src={img.src}  loading="lazy" alt=""/>
+            <img src={img.src} width={img.width} loading="lazy" alt=""/>
         )}
     </main>
 
