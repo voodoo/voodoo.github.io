@@ -1,0 +1,48 @@
+---
+import Layout from "../components/layouts/base.astro";
+
+import moon from "../assets/img/blender/lg/1moon1.webp"
+import space from "../assets/img/blender/lg/spaceshipwires1.webp"
+import pillar from "../assets/img/blender/lg/2pillar.webp"
+import plants from "../assets/img/blender/lg/3plants.webp"
+import hands from  "../assets/img/blender/lg/5untitled5.webp"
+import { Image } from '@astrojs/image/components'
+
+---
+<Layout title="Blender grid">
+<div class="grid">
+  <Image src={space} height=300/>
+  <Image src={pillar} height=300 class="pillar"/>
+  <Image src={hands} height=300 />
+  <Image src={plants} height=300 class="plants"/>
+</div>
+
+</Layout>
+
+<style>
+  .grid {
+    width: 80vw;
+    margin-inline: auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: .5rem;
+    margin-top: 2em;
+  }
+  .pillar{
+    grid-area: 1 / 2 / 1 / 4;
+    /* <row-start> / <column-start> / <row-end> / <column-end> */
+  }
+   .plants{
+    grid-area: 2 / 1 / 2 / 3;
+    /* <row-start> / <column-start> / <row-end> / <column-end> */
+  }
+  img{
+    justify-self: center;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    border-radius: 1em;
+  }
+  </style>
+

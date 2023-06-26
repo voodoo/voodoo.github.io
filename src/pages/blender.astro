@@ -6,7 +6,7 @@ const imgs = await Astro.glob("../assets/img/blender/lg/*.webp").then(
         return files.map((file) => file.default);
     }
 );
-//import { Debug } from "astro/components";
+import { onlyFileName } from "~/utils";
 ---
 
 <Layout title="Blender 3D">
@@ -14,7 +14,7 @@ const imgs = await Astro.glob("../assets/img/blender/lg/*.webp").then(
 
     <main class="grid">
         {imgs.map(img =>
-            <a name={img.src.substring(img.src.lastIndexOf('/')).replace('/','')}></a>
+            <a name={onlyFileName(img.src)}></a>
             <img src={img.src}  loading="lazy" alt=""/>
         )}
     </main>
