@@ -1,5 +1,4 @@
 ---
-import Logo from "~/components/logo.astro";
 import Layout from "../components/layouts/base.astro";
 const imgs = await Astro.glob("../assets/img/blender/lg/*.webp").then(
     (files) => {
@@ -12,20 +11,11 @@ import { onlyFileName } from "~/utils";
 <Layout title="Blender 3D">
 
 
-    <main class="grid">
         {imgs.map(img =>
             <a name={onlyFileName(img.src)}></a>
             <img src={img.src} width={img.width} loading="lazy" alt=""/>
         )}
-    </main>
+
 
 </Layout>
 
-<style>
-
-img{
-    width:100%;
-
-    display:block;
-}
-</style>

@@ -1,5 +1,4 @@
 ---
-import Logo from "~/components/logo.astro";
 import Layout from "../components/layouts/base.astro";
 const imgs = await Astro.glob("../assets/img/ai/lg/*.webp").then((files) => {
     return files.map((file) => file.default);
@@ -22,3 +21,6 @@ import { onlyFileName } from "~/utils";
             ))
         }
 </Layout>
+
+
+

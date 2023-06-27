@@ -61,17 +61,19 @@ title: Resume
 - Manages customer's clients, phones, invoices and more
 - Rails (started with 2, currently on 4+)
 - Nginx, Passenger, Mysql
-- Twilio - allows MBLZ to answer any number of phones - and manage their contacts
-- Scriptable phone number
-- Call Routing
-- Jquery Mobile
-- UI / Javascript
+- **Twilio**
+  - Script-able phone number
+  - Phone switch boards - answering trees
+  - Allows MBLZ to answer any number of phones - and manage their contacts
+  - Call Routing
+- jQuery Mobile
+- UI / JavaScript
 - I've worked for MBLZ on a project basis over the last few years.
-- Some of the projects include:
+- Some projects include:
   - Added product invoices and inventory
   - Updating all sites to use SSL (Let's Encrypt)
   - Moved the CMS portion out of Rails and into a static site generator
-  - Multi-site Middleman - all the sites use one instance, each containing their own data and content - making maintenance (including adding sites) very efficient, performant and cost effective
+  - Multi-site Middleman - all the sites use one instance, each containing their own data and content - making maintenance (including adding sites) very efficient, performant and cost-effective
   - Bootstrap (3&4 - the upgrade to 4 was a breeze)
 
 

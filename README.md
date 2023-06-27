@@ -1,12 +1,4 @@
-# Astro Landing Page
-
-[![Built with Astro](https://astro.badg.es/v1/built-with-astro.svg)](https://astro.build)
-
-> An Astro + Tailwind CSS example/template for landing pages.
-
-![Screenshots of Astro Landing Page](screenshots.jpg)
-
-## Features
+# Astro Features
 
 - 💨 Tailwind CSS for styling
 - 🎨 Themeable
