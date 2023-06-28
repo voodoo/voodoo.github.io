@@ -13,7 +13,7 @@ import { onlyFileName } from "~/utils";
 
         {imgs.map(img =>
             <a name={onlyFileName(img.src)}></a>
-            <img src={img.src} width={img.width} loading="lazy" alt=""/>
+            <img src={img.src} width={img.width} height={img.height} loading="lazy" alt=""/>
         )}
 
 
