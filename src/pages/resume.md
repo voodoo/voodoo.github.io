@@ -3,11 +3,13 @@ layout: ../components/layouts/markdown.astro
 title: Resume
 ---
 
-# Resume of <br/> Paul Vudmaska
+<div class="flex"><h2>Paul Vudmaska's <br/> Resume</h2>
 
 - Email : paul@vudmaska.com
 - Phone: 210-422-7745
-- Wiki: https://github.com/voodoo/voodoo.github.io/wiki
+- Github: https://github.com/voodoo/
+
+</div>
 
 
 ## Developer
@@ -24,50 +26,34 @@ title: Resume
 
 
 
-## Skills / Server
+### Server  / Skills
 
 - Ruby on Rails
 - Many ruby gems [Gemfile](https://github.com/voodoo/voodoo.github.io/wiki/MBLZ)
 - Mysql / Postgres
 - Managed production servers on **Digital Ocean** and **Linode** for more than 10 years
-- Ubuntu
-- Passenger
-- Nginx
-- SSH / Keys
-- Capistrano
-- SSL certs
+- Ubuntu, Passenger, Nginx, SSH / Keys, Capistrana, SSL certs
 
 
-## Skills / Client
+### Client /  Skills
 
-- HTML
-- CSS
-  - Tailwind / Bootstrap
-  - Grid / Flex
-- Javascript
-- jQuery
-  - jQuery Mobile
-
-- Svelte
-- Static site generators
-  - Astro
-  - Middleman
+- HTML, CSS (Tailwind / Bootstrap, Grid / Flex)
+- Javascript, jQuery, jQuery Mobile, Svelte Kit
+- Static site generators (Astro,Middleman)
 
 ## Experience
 
-### MBLZ (Jan 2007 to Present)
+<div class="flex"><h3>MBLZ</h3> <h3> Jan 2007 to Present</h3></div>
 
 - Full stack development of CRM for small business.
 - Manages customer's clients, phones, invoices and more
 - Rails (started with 2, currently on 4+)
 - Nginx, Passenger, Mysql
-- **Twilio**
-  - Script-able phone number
-  - Phone switch boards - answering trees
+- Twilio
   - Allows MBLZ to answer any number of phones - and manage their contacts
+  - Script-able phone number, Phone switch boards - answering trees
   - Call Routing
 - jQuery Mobile
-- UI / JavaScript
 - I've worked for MBLZ on a project basis over the last few years.
 - Some projects include:
   - Added product invoices and inventory
@@ -76,8 +62,8 @@ title: Resume
   - Multi-site Middleman - all the sites use one instance, each containing their own data and content - making maintenance (including adding sites) very efficient, performant and cost-effective
   - Bootstrap (3&4 - the upgrade to 4 was a breeze)
 
+<div class="flex"><h3>Rackspace</h3> <h4> 2010-2015</h4></div>
 
-### Rackspace (2010-2015)
 
 - Senior developer working on internal apps that managed contracts.
 - Using their API, interfaced with Salesforce
@@ -85,7 +71,8 @@ title: Resume
 - Implemented workflows that streamlined the sales/contract process
 - Worked closely with business reps on requirements
 
-### Experience before 2010
+<div class="flex"><h3>Experience</h3> <h4> Before 2010</h4></div>
+
 
 - **Navy** (3 years).
   - Honorably discharged. Attained rank of E6 in short enlistment.
@@ -97,9 +84,8 @@ title: Resume
   - ASP - Jscript on the server
 
 
-## Education
+<div class="flex"><h3>Education</h3> <h4> Graduated in 1997</h4></div>
 
 - **Bachelor of Business Administration**
 - Information Systems
 - UTSA, San Antonio, Texas
-- Graduated in 1997

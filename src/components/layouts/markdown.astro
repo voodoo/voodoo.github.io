@@ -10,21 +10,28 @@ const { frontmatter } = Astro.props;
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
          <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <title>{frontmatter.title}</title>
-        <style>
+        <style is:global>
             main {
                 margin-inline: auto;
-                max-width: 80vw;
-                margin-top: 2rem;
+                min-width: 80vw;
+
             }
             body {
                 background: #eee;
-                line-height: 2em !important;
             }
-            /* li {
+            li {
                 padding: 0;
                 margin: 0;
-                line-height: .9
-            } */
+                line-height: 1.1;
+            }
+            .flex{
+                width:100%;
+                display:flex;
+                flex-direction: row;
+                align-items: flex-end;
+                justify-content: space-between;
+                border-bottom: 2px solid #ccc;
+            }
         </style>
     </head>
     <body>
