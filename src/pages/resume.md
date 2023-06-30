@@ -12,17 +12,14 @@ title: Resume
 </div>
 
 
-## Developer
+## Full stack developer
 
-- Full stack, Ruby on Rails developer (12+ years experience) with other complimentary design and technology skills.
-- 20+ Experience with HTML, CSS, Javascript, others
-
-## Why me?
-
-- My best asset is my **interest**. I keep up with web development trends (both front and back) because I love it.
+- Ruby on Rails (12+ years experience)
+- Experience with HTML, CSS, Javascript (20+ years)
+- My best asset is my **interest**
 - I seek value - "how is this technology going to help me create value for myself and others?"
-- Finding the right tool for the job used to be the hardest part. Now, choosing, the right tool is hardest because of paradox of choice.
-- I've got 20 years of experience choosing and implementing the right tools for the job.
+- Finding the right tool for the job used to be the hardest part. Now, choosing, the right tool is hardest because of paradox of choice
+- I've got 20 years of experience **choosing** and implementing the right tools for the job
 
 
 
@@ -37,9 +34,9 @@ title: Resume
 
 ### Client /  Skills
 
-- HTML, CSS (Tailwind / Bootstrap, Grid / Flex)
+- HTML, CSS ( Tailwind / Bootstrap, Grid / Flex )
 - Javascript, jQuery, jQuery Mobile, Svelte Kit
-- Static site generators (Astro,Middleman)
+- Static site generators ( Astro, Middleman )
 
 ## Experience
 
