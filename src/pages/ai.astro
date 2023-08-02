@@ -5,6 +5,17 @@ const imgs = await Astro.glob("../assets/img/ai/lg/*.webp").then((files) => {
 });
 import { onlyFileName } from "~/utils";
 ---
+        <style>
+            body {
+                margin: 0;
+                background: #333333;
+            }
+            img {
+                width: 100vw;
+
+                display: block;
+            }
+        </style>
 <Layout>
 
         {

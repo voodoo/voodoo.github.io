@@ -3,7 +3,8 @@ layout: ../components/layouts/markdown.astro
 title: Resume
 ---
 
-<div class="flex"><h1>Paul Vudmaska's <br/> Resume</h1>
+<div class="flex">
+<h1>Paul Vudmaska</h1>
 
 - Email : paul@vudmaska.com
 - Phone: 210-422-7745
@@ -12,9 +13,9 @@ title: Resume
 </div>
 
 
-## Full stack developer
+## Full stack developer/designer
 
-- Ruby on Rails (12+ years experience) with UX design skills
+- Ruby on Rails (12+ years experience) with UX design/prototyping skills (Figma 3+ years)
 
 ### Education
 - **Bachelor of Business Administration**
@@ -23,15 +24,16 @@ title: Resume
 
 ### Skills
 - Ruby on Rails, Ruby, gems [Gemfile](https://github.com/voodoo/voodoo.github.io/wiki/MBLZ)
+- **Figma, UX Design**, Krita, Blender
 - Mysql, Postgres, Digital Ocean, Linode
 - Ubuntu, Passenger, Nginx, SSH / Keys, Capistrano, SSL certs, Git, Netlify
 - HTML, CSS (Tailwind / Bootstrap, Grid / Flex)
 - JavaScript, jQuery, jQuery Mobile, Svelte Kit
-- Static site generators (Astro, Middleman), Figma, UX Design, Krita, Blender
+- Static site generators (Astro, Middleman),
 
 ## Experience
 
-### MBLZ <small>(2007 to Present)</small>
+### MBLZ <small>(2016 to Present)</small>
 - Full stack development of CRM for small business
 - Manages customer's clients, phones, invoices and more
 - Rails, Nginx, Passenger, Mysql, Twilio
@@ -46,8 +48,9 @@ title: Resume
 
 
 ### Navy <small>(4 years)</small>
-- Honorably discharged. Attained rank of E6 in short enlistment.
+- Honorably discharged. Attained rank of E5 in short enlistment.
 - Worked on the flight deck of an aircraft carrier (Saratoga)
+- Security clearance
 - Visited the Mediterranean
 
 ### USAA <small>(3 years)</small>

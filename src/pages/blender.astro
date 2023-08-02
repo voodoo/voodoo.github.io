@@ -7,7 +7,17 @@ const imgs = await Astro.glob("../assets/img/blender/lg/*.webp").then(
 );
 import { onlyFileName } from "~/utils";
 ---
+        <style>
+            body {
+                margin: 0;
+                background: #333333;
+            }
+            img {
+                width: 100vw;
 
+                display: block;
+            }
+        </style>
 <Layout title="Blender 3D">
 
 

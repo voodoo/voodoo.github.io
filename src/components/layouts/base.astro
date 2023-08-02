@@ -9,19 +9,8 @@ const { title } = Astro.props;
         <title>{title}</title>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <meta name="viewport" content="width=device-width" />
-        <style is:global>
-            body {
-                margin: 0;
-                background: black;
-            }
-            img {
-                width: 100vw;
-
-                display: block;
-            }
-        </style>
     </head>
-    <body>
+    <body class="text-slate-100">
         <Logo />
         <slot />
     </body>
