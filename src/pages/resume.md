@@ -26,6 +26,7 @@ title: Resume
 ### Skills
 - Ruby on Rails, Ruby
 - **Figma, UX Design**, Framer, Krita, Blender
+- Git, Github
 - Mysql, Postgres, Digital Ocean, Linode
 - Ubuntu, Passenger, Nginx, SSH / Keys, Capistrano, SSL certs, Git, Netlify
 - HTML, CSS (Tailwind / Bootstrap, Grid / Flex)
