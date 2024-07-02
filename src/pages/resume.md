@@ -15,7 +15,8 @@ title: Resume
 
 ## Full stack developer/designer
 
-- Ruby on Rails (12+ years experience) with UX design/prototyping skills (Figma 3+ years)
+- Ruby on Rails (12+ years experience) with UX design/prototyping skills 
+  - (Figma 3+ years, Framer 1+ years)
 
 ### Education
 - **Bachelor of Business Administration**
@@ -23,13 +24,14 @@ title: Resume
 - UTSA, San Antonio, Texas
 
 ### Skills
-- Ruby on Rails, Ruby, gems [Gemfile](https://github.com/voodoo/voodoo.github.io/wiki/MBLZ)
-- **Figma, UX Design**, Krita, Blender
+- Ruby on Rails, Ruby
+- **Figma, UX Design**, Framer, Krita, Blender
 - Mysql, Postgres, Digital Ocean, Linode
 - Ubuntu, Passenger, Nginx, SSH / Keys, Capistrano, SSL certs, Git, Netlify
 - HTML, CSS (Tailwind / Bootstrap, Grid / Flex)
 - JavaScript, jQuery, jQuery Mobile, Svelte Kit
 - Static site generators (Astro, Middleman),
+- Agile method
 
 ## Experience
 
