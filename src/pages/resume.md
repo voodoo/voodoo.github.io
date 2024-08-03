@@ -9,6 +9,7 @@ title: Resume
 - Email : paul@vudmaska.com
 - Phone: 210-422-7745
 - Github: https://github.com/voodoo/
+- Contra: https://vudmaska.contra.com/
 
 </div>
 
@@ -36,10 +37,19 @@ title: Resume
 
 ## Experience
 
-### MBLZ <small>(2016 to Present)</small>
+### Together with Hill Country Veterans <small>(2023 to Present)</small>
+- Full, multi-page framer site
+- Continuous content updates with cms
+- Made the site responsive and added interactions
+
+### MBLZ <small>(2016 to 2022)</small>
 - Full stack development of CRM for small business
 - Manages customer's clients, phones, invoices and more
-- Rails, Nginx, Passenger, Mysql, Twilio
+- UI with Jquery Mobile
+- Rails, Nginx, Passenger, Mysql
+- Used Twilio to add phone for customers
+  - Created switchboard for each customer
+- Setup "Let's encrypt" SSL certs on app server
 
 ### Rackspace <small>(2010-2015)</small>
 
