@@ -9,7 +9,9 @@ title: Resume
 - Email : paul@vudmaska.com
 - Phone: 210-422-7745
 - Github: https://github.com/voodoo/
+- Wiki: https://github.com/voodoo/voodoo.github.io/wiki
 - Contra: https://vudmaska.contra.com/
+
 
 </div>
 
